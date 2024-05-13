@@ -1,0 +1,18 @@
+[package]
+name         = "unscrupulous_derive"
+version      = "0.1.0"
+authors      = ["ffminus <ffminus@protonmail.com"]
+edition      = "2021"
+description  = "Derive macro to implement `Unscrupulous` on composite types, ensuring all nested fields implement the trait."
+readme       = "README.md"
+repository   = "https://github.com/ffminus/unscrupulous_derive"
+license      = "MIT"
+keywords     = ["derive", "macro", "marker", "memory"]
+categories   = ["memory-management"]
+
+
+[lib]
+proc-macro = true
+
+
+[dependencies]
